@@ -6,13 +6,15 @@
 
 body{
     padding: 0 30px;
+    margin: 20px 0;
 }
 body>section{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    margin: 20px 20px;
-    padding: 5px 10px;
+    padding: 5px 20px;
+    width: 100%;
+    overflow: none;
 }
 
 body>section:first-child{
@@ -25,6 +27,8 @@ section p, section a{
 
 section>img{
     width: 500px;
+    min-width: 300px;
+    background-size: cover;
 }
 
 ol li{
