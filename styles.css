@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0 30px;
+}
+body>section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px 20px;
+    padding: 5px 10px;
+}
+
+body>section:first-child{
+    border: 1px solid #111;
+    padding: 20px 50px;
+}
+section p, section a{
+    margin-top: 30px;
+}
+
+section>img{
+    width: 500px;
+}
+
+ol li{
+    padding: 7px;
+}
+
+
+
+
